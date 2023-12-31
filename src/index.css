@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+a, a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.container-lg.pd-tpbt-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card-gap {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}

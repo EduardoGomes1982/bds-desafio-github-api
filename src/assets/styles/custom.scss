@@ -1,0 +1,11 @@
+$theme-colors: (
+  'primary': #F78B00,
+  'secondary': #00285F
+);
+
+$body-bg: #FFFFFF;
+$body-color: #00285F;
+$paragraph-margin-bottom: 0px;
+$headings-margin-bottom: 0px;
+
+@import '~bootstrap/scss/bootstrap.scss';
