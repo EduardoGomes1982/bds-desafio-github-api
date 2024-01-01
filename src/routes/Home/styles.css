@@ -1,0 +1,29 @@
+.search-profile-start {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.search-profile-start h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 0.96px;
+}
+
+.search-profile-start p {
+    font-size: 12px;
+    font-weight: 700;
+    color: #7E7E7E;
+    letter-spacing: 0.48px;
+}
+
+@media (min-width: 576px) {
+    .search-profile-start h2 {
+        font-size: 48px;
+    }
+
+    .search-profile-start p {
+        font-size: 24px;
+    }
+}

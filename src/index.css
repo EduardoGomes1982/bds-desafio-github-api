@@ -16,13 +16,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-.container-lg.pd-tpbt-20 {
-  padding-top: 20px;
-  padding-bottom: 20px;
+.main-container {
+  padding: 10px 20px;
 }
 
-.card-gap {
-  display: flex;
-  flex-direction: column;
-  row-gap: 20px;
+@media (min-width: 576px) {
+  .main-container {
+    padding: 30px 40px;
+  }
 }

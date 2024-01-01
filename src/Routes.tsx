@@ -1,14 +1,16 @@
 import NavBar from 'components/NavBar';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Home from 'routes/Home';
 
 const Routes = () => (
     <BrowserRouter>
         <NavBar />
         <Switch>
-            <main className='container-lg pd-tpbt-20'>
+            <main className='main-container'>
                 <Route path="/" exact>
+                    <Home />
                 </Route>
-                <Route path="/products" exact>
+                <Route path="/search-profile" exact>
                 </Route>
             </main>
         </Switch>
