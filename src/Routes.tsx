@@ -1,6 +1,7 @@
 import NavBar from 'components/NavBar';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from 'routes/Home';
+import SearchProfile from 'routes/SearchProfile';
 
 const Routes = () => (
     <BrowserRouter>
@@ -11,6 +12,7 @@ const Routes = () => (
                     <Home />
                 </Route>
                 <Route path="/search-profile" exact>
+                    <SearchProfile />
                 </Route>
             </main>
         </Switch>
